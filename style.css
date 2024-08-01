@@ -2,7 +2,7 @@
     margin: 0;
     padding: 0;
 }
-a{   
+#forgotpassword{   
     color: black;
    margin-left: 170px;
    display: inline-block;
@@ -48,9 +48,30 @@ form input {
     margin-left: 20px;  
     margin-bottom:20px ;   
     text-decoration: none;
-   
+}
+#email{
+    background-image: url('./images/profile.png');
+    background-position: left center;
+    background-repeat: no-repeat;
+    padding-right: 20px;
+    background-size: 27px;
+
     
- 
+}
+#password{
+    background-image: url('./images/padlock.png');
+    background-position: left center;
+    background-repeat: no-repeat;
+    padding-right: 20px;
+    background-size: cover;
+    background-size: 25px;   
+}
+
+#email:focus {
+    background-image: none;
+}
+#password:focus {
+    background-image: none;
 }
 label{
     margin-left:20px ;
@@ -63,6 +84,7 @@ button{
     margin-top: 20px;
     text-align: center; 
     margin-left: 100px;
+    margin-bottom: 20px;
     background-image: url(./images/vivid-blurred-colorful-background\ \(1\).jpg);
     background-size: cover;
     
@@ -88,9 +110,10 @@ width: 20px;
     background-color: white;
     
 }
-a:hover{
+#forgotpassword:hover{
     color: rgb(0, 26, 255);
 }
+
 
 .poppins-regular {
     font-family: "Poppins", sans-serif;
