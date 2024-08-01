@@ -56,8 +56,9 @@ form input {
     padding-right: 20px;
     background-size: 27px;
 
-    
 }
+
+
 #password{
     background-image: url('./images/padlock.png');
     background-position: left center;
@@ -67,12 +68,9 @@ form input {
     background-size: 25px;   
 }
 
-#email:focus {
-    background-image: none;
-}
-#password:focus {
-    background-image: none;
-}
+
+
+
 label{
     margin-left:20px ;
     margin-bottom: 1px;
@@ -119,4 +117,7 @@ width: 20px;
     font-family: "Poppins", sans-serif;
     font-weight: 400;
     font-style: normal;
+  }
+  input:hover{
+    border:5px solid blue ;
   }

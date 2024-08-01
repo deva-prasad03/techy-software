@@ -1,5 +1,15 @@
 
 const forms = document.getElementById("forms")
+var a1=document.getElementById("email");
+var a2=document.getElementById("password");
+
+
+function one(){
+  a1.style.backgroundImage="none";
+}
+function two(){
+  a2.style.backgroundImage="none";
+}
 forms.addEventListener("submit", (e) =>{
 
  e.preventDefault();

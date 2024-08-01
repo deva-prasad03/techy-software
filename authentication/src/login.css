@@ -1,0 +1,45 @@
+.container1{
+    height: 300px;
+    width: 270px;
+    background-color: red;
+    display: flex;
+    flex-direction: column;
+   
+}
+
+*{
+    margin: 0;
+    padding: auto;
+}
+.poppins-regular{
+ margin-bottom: 20px;
+ text-align: center;
+}
+#form-input1{
+    margin-bottom: 20px;
+}
+label{
+    margin-left: 7px;
+}
+a{
+    text-decoration: none;
+    display: inline;
+    margin-left: 120px;
+  
+}
+input{
+    margin-bottom: 20px;
+    margin-top: 5px;
+    margin-left: 30px;
+    width: 200px;
+    height: 20px;
+}
+#button{
+    align-items: center;
+    display: inline;
+    margin-left: 80px;
+    width: 100px;
+    height: 40px;
+    margin-top: 20px;
+
+}
