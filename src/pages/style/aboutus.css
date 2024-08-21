@@ -1,0 +1,24 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+#aboutus-container{
+    margin-left: 260px; /* or use percentage or auto */
+    margin-right: 20px; /* or use percentage or auto */
+    width: 60%;
+    text-align: center;
+
+}
+
+p{
+    margin-bottom: 20px;
+}
+h2{
+    color: red;
+    padding: 10px;
+    text-decoration:underline;
+  
+    font-weight: bold;
+  
+}

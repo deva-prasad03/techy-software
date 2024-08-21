@@ -1,0 +1,6 @@
+#home,#aboutus,#productandservice,#contactus{
+    text-decoration: none;
+}
+body{
+    background: linear-gradient(to right, rgb(150, 137, 207), rgba(211, 211, 211, 0));
+}

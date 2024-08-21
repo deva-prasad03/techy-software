@@ -1,0 +1,77 @@
+ nav ul {
+    display: inline;    
+}
+#top-bar{
+    margin-left: 800px;
+    display: flex;
+    margin-bottom: 0px;
+}
+
+ul{
+    margin-left: 60px;
+    margin-top: 10px;
+    font-size: large;
+}
+.nav-link {
+    /* your styles here */
+    color: white;
+    text-decoration: none;
+   
+}
+#navHome:hover{
+    background-color: blue;
+  
+}
+#navAboutus:hover{
+    background-color: blue;
+    
+}
+
+#navServices:hover{
+    background-color: blue;
+    
+}
+#navServices{
+    margin-right: 150px;
+}
+#menu{
+    width: 20px;
+  height: 20px;
+margin-right: 40px;
+display: none;
+background-color: white;
+}
+
+#nav-link{
+    background-color: #0f172a;
+    height: 40px;
+}
+#navHome{
+    display: inline;
+
+}
+
+@media (max-width: 1200px) {
+    #nav-link{
+        height: 60px;
+        display: block;
+        background-color:transparent;
+    }
+
+#top-bar{
+    display: flex;  
+    flex-direction: column;
+  justify-content: space-between;
+  color: red;
+ 
+ 
+margin-inline-start: 0;
+
+}
+
+   
+
+
+
+
+}

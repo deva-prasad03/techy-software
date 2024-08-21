@@ -1,0 +1,46 @@
+#DigitalMarketing , #Web-Developmet{
+
+
+text-align: center;
+align-items: center;
+display: flex;
+margin: 20px;
+text-decoration: underline;
+}
+
+
+#service-list{
+    font-size:xx-large;
+display: inline;
+  gap: 20px;
+
+  margin: 20px;
+}
+
+#a1{
+    display: inline-block;
+    color: white ;
+    background-color:black;
+    margin: 20px;
+    padding: 10px;
+
+}
+
+
+
+#img1 ,#img2{
+    margin: 20px;
+    width: 200px;
+    height: 200px;
+    border: none;
+    padding: 100px;
+}
+
+
+
+#a1:hover{
+    color:black;
+    background-color: beige;
+    padding: 5px;
+
+}
